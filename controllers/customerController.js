@@ -5,7 +5,7 @@ const db = require('../models/index')
 const Customer = db.Customers
 
 const addCustomer = async (req, res) => {
-    let input_data = {
+    let input_data = { 
         name: req.body.name,
         email: req.body.email
         }

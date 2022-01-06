@@ -1,4 +1,4 @@
-   import {USERNAME, PASS} from '../keys.env';
+   const keys = require('../keys.env');
    // store the configuration secrets of the PG DB here
    module.exports = {
     HOST: 'database-1.czr7p5bktcvw.us-east-1.rds.amazonaws.com', // your endpoint
